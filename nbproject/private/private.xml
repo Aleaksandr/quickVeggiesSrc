@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/Main.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/buyerExpenseInfoAdd.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/GeneralMethods.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/MoneyPaidRecdController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/ai_int/utils/javafx/ListViewUtil.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/dashboard/DBankAccountsController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/buyeredit.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/dao/DatabaseClient.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/CosmeticStyles.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/supplieradd.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/buyeradd.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/UserGlobalParameters.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/misc/CryptDataHandler.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/SettingsController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/login.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/BuyerExpenseInfoEdit.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/misc/FruitButtonEventHandler.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/DataBaseProfileSettingController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/auditlogentrypopup.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/database.cfg</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/dashboard/IntroDashController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/accountbox.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/databaseProfileSetting.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/addcharges.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/resources/dashboardz.fxml</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/dashboard/DashboardController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/RegisterController.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/ai_int/utils/javafx/ImageUtil.java</file>
+            <file>file:/C:/Users/waycon-user/Downloads/QuickVeggiesSrc1/QuickVeggiesSrc/src/com/quickveggies/controller/LoginController.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,11 @@
+com.ai_int.utils
+com.ai_int.utils.javafx
+com.quickveggies
+com.quickveggies.controller
+com.quickveggies.controller.dashboard
+com.quickveggies.controller.popup
+com.quickveggies.dao
+com.quickveggies.entities
+com.quickveggies.misc
+com.quickveggies.misc.tests
+com.quickveggies.model

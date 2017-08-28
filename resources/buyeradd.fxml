@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quickveggies.controller.AddBuyerController">
+   <children>
+      <GridPane layoutX="17.0" layoutY="22.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Pane GridPane.halignment="CENTER">
+                     <children>
+                        <!-- <Region layoutY="234.0" prefHeight="98.0" prefWidth="600.0" style="-fx-background-color: #99ccff; -fx-opacity: 0.8;" /> -->
+                        <Label layoutX="72.0" text="First Name" />
+                        <!-- <TextField fx:id="title" layoutX="15.0" layoutY="31.0" promptText="Title" />-->
+                        <TextField fx:id="firstName" layoutY="17.0" prefHeight="25.0" prefWidth="215.0" promptText="First Name">
+                           <padding>
+                              <Insets right="5.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Pane>
+                  <Pane GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="78.0" text="Last Name" />
+                        <TextField fx:id="lastName" layoutY="17.0" prefHeight="25.0" prefWidth="264.0" promptText="Last Name" />
+                     </children>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Pane>
+               </children>
+            </GridPane>
+            <GridPane GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Pane GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="10.0" prefHeight="17.0" prefWidth="159.0" text="Company / Orchard name" />
+                        <TextField fx:id="company" layoutY="17.0" prefHeight="25.0" prefWidth="315.0" promptText="Company / Orchard name" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="42.0" prefWidth="158.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="45.0" text="Proprietor" />
+                        <TextField fx:id="proprietor" layoutY="17.0" prefHeight="25.0" prefWidth="159.0" promptText="Proprietor" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+            <GridPane prefHeight="40.0" prefWidth="423.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Pane prefHeight="40.0" prefWidth="126.0" GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="47.0" text="Mobile" />
+                        <TextField fx:id="mobile" layoutY="15.0" promptText="Mobile" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="40.0" prefWidth="152.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="51.0" text="Mobile2" />
+                        <TextField fx:id="mobile2" layoutY="15.0" prefHeight="25.0" prefWidth="141.0" promptText="Mobile" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="40.0" prefWidth="120.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <children>
+                        <Label layoutX="40.0" text="Email1" />
+                        <TextField fx:id="email" layoutY="15.0" promptText="Email address 1" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+            <GridPane GridPane.rowIndex="3">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Pane GridPane.columnIndex="2">
+                     <children>
+                        <Label layoutX="40.0" text="Email2" />
+                        <TextField fx:id="email2" layoutY="15.0" prefHeight="25.0" prefWidth="141.0" promptText="Email Address 2" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="42.0" prefWidth="135.0">
+                     <children>
+                        <Label layoutX="41.0" text="Shop no." />
+                        <TextField fx:id="shop" layoutY="17.0" promptText="Shop no." />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="42.0" prefWidth="122.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label layoutX="40.0" text="City/Town" />
+                        <TextField fx:id="city" layoutY="17.0" promptText="City/Town" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+      <Pane layoutX="15.0" layoutY="242.0">
+         <children>
+            <Label layoutX="2.0" text="Preferred Payment method" />
+            <ComboBox fx:id="paymentMethod" layoutY="28.0" prefHeight="54.0" prefWidth="185.0" promptText="Cash" visibleRowCount="2">
+               <effect>
+                  <Glow />
+               </effect>
+            </ComboBox>
+         </children>
+      </Pane>
+      <Pane layoutX="299.0" layoutY="242.0" AnchorPane.rightAnchor="219.0">
+         <children>
+            <Pane layoutX="25.0">
+               <children>
+                  <Label layoutX="50.0" text="Credit period" />
+                  <ChoiceBox fx:id="creditPeriod" layoutY="28.0" prefHeight="54.0" prefWidth="185.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="101.0" layoutY="83.05078125">
+               <children>
+                  <Text layoutY="13.0" text="Buyer type:" />
+                  <ComboBox fx:id="ladaanBijak" layoutY="17.94921875" prefHeight="36.0" prefWidth="85.0" />
+               </children>
+            </Pane>
+            <Button fx:id="create" layoutY="101.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" text="Create" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="80.0" fitWidth="101.0" layoutX="492.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <Shadow />
+         </effect></ImageView>
+      <Pane layoutX="16.0" layoutY="337.0">
+         <children>
+            <CheckBox fx:id="hasGuarantor" layoutX="1.0" mnemonicParsing="false" text="Has a guarantor / parent company" />
+            <TextField fx:id="guarantorName" disable="true" layoutY="24.0" prefHeight="25.0" prefWidth="203.0" promptText="Enter Parent Company" />
+         </children>
+      </Pane>
+      <GridPane layoutX="509.0" layoutY="31.0" AnchorPane.rightAnchor="22.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="btnUploadPhoto" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" text="Upload Photo" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+               <GridPane.margin>
+                  <Insets top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Pane fx:id="imagePanel" prefHeight="155.0" prefWidth="167.0" style="-fx-border-color: black; -fx-border-width: 2px;">
+               <children>
+                  <ImageView fx:id="imvPhoto" fitHeight="155.0" fitWidth="173.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
